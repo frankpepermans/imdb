@@ -1,15 +1,15 @@
 'use strict';
 
-describe('myApp.wikipedia module', function() {
+describe('rx-angular-example.wikipedia module', function() {
 
-  beforeEach(module('myApp.wikipedia'));
+  beforeEach(module('rx-angular-example.wikipedia'));
 
   describe('wikipedia controller', function(){
 
     it('should ....', inject(function($controller) {
       //spec body
-      var view1Ctrl = $controller('View1Ctrl');
-      expect(view1Ctrl).toBeDefined();
+      var ctrl = $controller('WikipediaCtrl');
+      expect(ctrl).toBeDefined();
     }));
 
   });
